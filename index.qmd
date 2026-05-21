@@ -1,0 +1,15 @@
+---
+title: "Home"
+---
+
+# Eugenio Turchet
+
+PhD Student in Mathematics  
+Gran Sasso Science Institute
+
+My research interests include:
+
+- Numerical linear algebra
+- Matrix nearness problems
+- Randomized algorithms
+- Eigenvalue problems
