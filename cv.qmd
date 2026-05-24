@@ -1,0 +1,11 @@
+---
+title: "CV"
+---
+
+# Curriculum Vitae
+
+You can download my full curriculum vitae here:
+
+<a href="cv_files/CV.pdf" target="_blank">
+📄 Download CV (PDF)
+</a>

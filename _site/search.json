@@ -9,8 +9,50 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Home",
+    "title": "Eugenio Turchet",
     "section": "",
-    "text": "Eugenio Turchet\nPhD Student in Mathematics\nGran Sasso Science Institute\nMy research interests include:\n\nNumerical linear algebra\nMatrix nearness problems\nRandomized algorithms\nEigenvalue problems"
+    "text": "Numerical Linear Algebra, Matrix Optimization, and Randomized Algorithms"
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Eugenio Turchet",
+    "section": "Research interests",
+    "text": "Research interests\n\nNumerical Linear Algebra\nMatrix Nearness Problems\nRandomized Numerical Linear Algebra\nKrylov and Projection Methods\nEigenvalue Problems\nMatrix Optimization\nStructure-Preserving Algorithms"
+  },
+  {
+    "objectID": "thesis.html",
+    "href": "thesis.html",
+    "title": "Thesis",
+    "section": "",
+    "text": "This page collects my Bachelor’s and Master’s theses.\nBoth theses were written in Italian; English versions will be available soon.\n\n\n\n\n\nOriginal title: Metodi numerici proiettivi con componente probabilistica per equazioni matriciali lineari\nDegree: Master’s Degree in Mathematics\nInstitution: Alma Mater Studiorum — Università di Bologna\nAcademic year: 2023–2024\nAdvisor: Prof. Valeria Simoncini\nArea: Numerical Analysis\n\n\n\nThis thesis concerns the efficient numerical solution of large-scale linear matrix equations. In this context, Krylov subspace methods play a central role, since they exploit the structure and sparsity of the matrices involved and construct low-rank approximations to the solution.\nA key computational bottleneck in Krylov methods is the orthogonalization of the basis, whose cost increases with the number of iterations. Truncated Krylov methods reduce this cost by limiting the dimension of the projection space, but they may suffer from delayed convergence or stagnation, especially for more complex matrix equations.\nThe thesis investigates the use of randomized sketching techniques to overcome these limitations. Sketching projects the original data onto a lower-dimensional random space while preserving the essential features of the problem. The main goal of the work is to combine sketching and truncation in order to reduce the computational cost of projection methods while maintaining good convergence properties.\nThe study focuses on linear matrix equations more general than the Sylvester equation, including problems of the form\n[ A_1 X B_1^T + A_2 X B_2^T + + A_m X B_m^T = C_1 C_2^T, ]\nwhere the coefficient matrices are sparse, symmetric and positive definite. A simpler model problem of the form\n[ AX + XA^T + MXM^T = CC^T ]\nis also analyzed. The thesis develops and tests algorithms based on embedding subspaces and sketching, with numerical experiments comparing the proposed approach with existing methods.\nPDF in Italian\nEnglish version coming soon.\n\n\n\n\n\n\n\nOriginal title: Problemi di Sturm-Liouville regolari\nDegree: Bachelor’s Degree in Mathematics\nInstitution: Alma Mater Studiorum — Università di Bologna\nAcademic year: 2021–2022\nAdvisor: Prof. Simonetta Abenda\nArea: Mathematical Analysis\n\n\n\nThis thesis gives an introduction to regular Sturm–Liouville problems, namely a class of second-order ordinary differential equations subject to boundary conditions. The main focus is the Green’s function method and its use in the analysis and solution of these problems.\nA central aspect of Sturm–Liouville theory is that the solution process leads to an orthonormal basis of functions in the Hilbert space (L^2(I)), where (I) is a real interval on which the problem is defined.\nThe thesis begins with preliminary material on inner products, Hilbert spaces and their main properties. It then introduces self-adjoint operators and the regular Sturm–Liouville problem. Basic notions from distribution theory are also discussed. Finally, the Green’s function method is presented and used to prove results concerning the eigenvalues and eigenfunctions associated with regular Sturm–Liouville problems.\nPDF in Italian\nEnglish version coming soon."
+  },
+  {
+    "objectID": "thesis.html#masters-thesis",
+    "href": "thesis.html#masters-thesis",
+    "title": "Thesis",
+    "section": "",
+    "text": "Original title: Metodi numerici proiettivi con componente probabilistica per equazioni matriciali lineari\nDegree: Master’s Degree in Mathematics\nInstitution: Alma Mater Studiorum — Università di Bologna\nAcademic year: 2023–2024\nAdvisor: Prof. Valeria Simoncini\nArea: Numerical Analysis\n\n\n\nThis thesis concerns the efficient numerical solution of large-scale linear matrix equations. In this context, Krylov subspace methods play a central role, since they exploit the structure and sparsity of the matrices involved and construct low-rank approximations to the solution.\nA key computational bottleneck in Krylov methods is the orthogonalization of the basis, whose cost increases with the number of iterations. Truncated Krylov methods reduce this cost by limiting the dimension of the projection space, but they may suffer from delayed convergence or stagnation, especially for more complex matrix equations.\nThe thesis investigates the use of randomized sketching techniques to overcome these limitations. Sketching projects the original data onto a lower-dimensional random space while preserving the essential features of the problem. The main goal of the work is to combine sketching and truncation in order to reduce the computational cost of projection methods while maintaining good convergence properties.\nThe study focuses on linear matrix equations more general than the Sylvester equation, including problems of the form\n[ A_1 X B_1^T + A_2 X B_2^T + + A_m X B_m^T = C_1 C_2^T, ]\nwhere the coefficient matrices are sparse, symmetric and positive definite. A simpler model problem of the form\n[ AX + XA^T + MXM^T = CC^T ]\nis also analyzed. The thesis develops and tests algorithms based on embedding subspaces and sketching, with numerical experiments comparing the proposed approach with existing methods.\nPDF in Italian\nEnglish version coming soon."
+  },
+  {
+    "objectID": "thesis.html#bachelors-thesis",
+    "href": "thesis.html#bachelors-thesis",
+    "title": "Thesis",
+    "section": "",
+    "text": "Original title: Problemi di Sturm-Liouville regolari\nDegree: Bachelor’s Degree in Mathematics\nInstitution: Alma Mater Studiorum — Università di Bologna\nAcademic year: 2021–2022\nAdvisor: Prof. Simonetta Abenda\nArea: Mathematical Analysis\n\n\n\nThis thesis gives an introduction to regular Sturm–Liouville problems, namely a class of second-order ordinary differential equations subject to boundary conditions. The main focus is the Green’s function method and its use in the analysis and solution of these problems.\nA central aspect of Sturm–Liouville theory is that the solution process leads to an orthonormal basis of functions in the Hilbert space (L^2(I)), where (I) is a real interval on which the problem is defined.\nThe thesis begins with preliminary material on inner products, Hilbert spaces and their main properties. It then introduces self-adjoint operators and the regular Sturm–Liouville problem. Basic notions from distribution theory are also discussed. Finally, the Green’s function method is presented and used to prove results concerning the eigenvalues and eigenfunctions associated with regular Sturm–Liouville problems.\nPDF in Italian\nEnglish version coming soon."
+  },
+  {
+    "objectID": "codes.html",
+    "href": "codes.html",
+    "title": "Codes",
+    "section": "",
+    "text": "This page collects code related to my research projects."
+  },
+  {
+    "objectID": "codes.html#matlab-codes",
+    "href": "codes.html#matlab-codes",
+    "title": "Codes",
+    "section": "MATLAB codes",
+    "text": "MATLAB codes\nComing soon."
   }
 ]

@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Curriculum Vitae\nYou can download my full curriculum vitae here:\n 📄 Download CV (PDF)"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Publications\nA list of publications and preprints will be available soon."
+  },
+  {
+    "objectID": "codes.html",
+    "href": "codes.html",
+    "title": "Codes",
+    "section": "",
+    "text": "This page collects research codes related to my projects in numerical linear algebra, matrix equations, and randomized algorithms.\n\n\n\nMATLAB codes developed during my Master’s thesis project on projection methods, Krylov methods, and randomized sketching techniques for large-scale matrix equations arising from PDE discretizations.\n\n\n\nKrylov subspace methods\nTruncated Krylov methods\nRandomized sketching\nMatrix equations\nSylvester-type equations\nLarge-scale numerical linear algebra\nMATLAB implementations\n\n\n\n\nGitHub Repository"
+  },
+  {
+    "objectID": "codes.html#projection-methods-with-a-probabilistic-component-for-linear-matrix-equations",
+    "href": "codes.html#projection-methods-with-a-probabilistic-component-for-linear-matrix-equations",
+    "title": "Codes",
+    "section": "",
+    "text": "MATLAB codes developed during my Master’s thesis project on projection methods, Krylov methods, and randomized sketching techniques for large-scale matrix equations arising from PDE discretizations.\n\n\n\nKrylov subspace methods\nTruncated Krylov methods\nRandomized sketching\nMatrix equations\nSylvester-type equations\nLarge-scale numerical linear algebra\nMATLAB implementations\n\n\n\n\nGitHub Repository"
+  },
+  {
+    "objectID": "thesis.html",
+    "href": "thesis.html",
+    "title": "Thesis",
+    "section": "",
+    "text": "This page collects material related to my Master’s thesis.\nThe thesis was written in Italian; an English version will be available soon.\n\n\n\n\n\nOriginal title: Metodi numerici proiettivi con componente probabilistica per equazioni matriciali lineari\nDegree: Master’s Degree in Mathematics\nInstitution: Alma Mater Studiorum — Università di Bologna\nAcademic year: 2023–2024\nAdvisor: Prof. Valeria Simoncini\nArea: Numerical Analysis\n\n\n\nThis thesis concerns the efficient numerical solution of large-scale linear matrix equations. In this context, Krylov subspace methods play a central role, since they exploit the structure and sparsity of the matrices involved and construct low-rank approximations to the solution.\nA key computational bottleneck in Krylov methods is the orthogonalization of the basis, whose cost increases with the number of iterations. Truncated Krylov methods reduce this cost by limiting the dimension of the projection space, but they may suffer from delayed convergence or stagnation, especially for more complex matrix equations.\nThe thesis investigates the use of randomized sketching techniques to overcome these limitations. Sketching projects the original data onto a lower-dimensional random space while preserving the essential features of the problem. The main goal of the work is to combine sketching and truncation in order to reduce the computational cost of projection methods while maintaining good convergence properties.\nThe study focuses on linear matrix equations more general than the Sylvester equation, including problems of the form\n\\[\nA_1 X B_1^T + A_2 X B_2^T + \\cdots + A_m X B_m^T = C_1 C_2^T\n\\]\nwhere the coefficient matrices are sparse, symmetric and positive definite. A simpler model problem of the form\n\\[\nAX + XA^T + MXM^T = CC^T\n\\]\nis also analyzed. The thesis develops and tests algorithms based on embedding subspaces and sketching, with numerical experiments comparing the proposed approach with existing methods.\nPDF in Italian\nEnglish version coming soon."
+  },
+  {
+    "objectID": "thesis.html#masters-thesis",
+    "href": "thesis.html#masters-thesis",
+    "title": "Thesis",
+    "section": "",
+    "text": "Original title: Metodi numerici proiettivi con componente probabilistica per equazioni matriciali lineari\nDegree: Master’s Degree in Mathematics\nInstitution: Alma Mater Studiorum — Università di Bologna\nAcademic year: 2023–2024\nAdvisor: Prof. Valeria Simoncini\nArea: Numerical Analysis\n\n\n\nThis thesis concerns the efficient numerical solution of large-scale linear matrix equations. In this context, Krylov subspace methods play a central role, since they exploit the structure and sparsity of the matrices involved and construct low-rank approximations to the solution.\nA key computational bottleneck in Krylov methods is the orthogonalization of the basis, whose cost increases with the number of iterations. Truncated Krylov methods reduce this cost by limiting the dimension of the projection space, but they may suffer from delayed convergence or stagnation, especially for more complex matrix equations.\nThe thesis investigates the use of randomized sketching techniques to overcome these limitations. Sketching projects the original data onto a lower-dimensional random space while preserving the essential features of the problem. The main goal of the work is to combine sketching and truncation in order to reduce the computational cost of projection methods while maintaining good convergence properties.\nThe study focuses on linear matrix equations more general than the Sylvester equation, including problems of the form\n\\[\nA_1 X B_1^T + A_2 X B_2^T + \\cdots + A_m X B_m^T = C_1 C_2^T\n\\]\nwhere the coefficient matrices are sparse, symmetric and positive definite. A simpler model problem of the form\n\\[\nAX + XA^T + MXM^T = CC^T\n\\]\nis also analyzed. The thesis develops and tests algorithms based on embedding subspaces and sketching, with numerical experiments comparing the proposed approach with existing methods.\nPDF in Italian\nEnglish version coming soon."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Eugenio Turchet",
+    "section": "",
+    "text": "Numerical Linear Algebra, Matrix Optimization, and Randomized Algorithms"
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Eugenio Turchet",
+    "section": "Research interests",
+    "text": "Research interests\n\nNumerical Linear Algebra\nMatrix Nearness Problems\nRandomized Numerical Linear Algebra\nKrylov and Projection Methods\nEigenvalue Problems\nMatrix Optimization\nStructure-Preserving Algorithms\nLarge-Scale Matrix Computations"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  }
+]

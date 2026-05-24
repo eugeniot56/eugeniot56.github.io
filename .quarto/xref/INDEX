@@ -16,5 +16,11 @@
   },
   "cv.qmd": {
     "cv.html": "42448fbc"
+  },
+  "thesis.qmd": {
+    "thesis.html": "ad02b058"
+  },
+  "codes.qmd": {
+    "codes.html": "1e5bf939"
   }
 }

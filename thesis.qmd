@@ -1,0 +1,48 @@
+---
+title: "Thesis"
+---
+
+# Thesis
+
+This page collects material related to my Master’s thesis.  
+The thesis was written in Italian; an English version will be available soon.
+
+---
+
+## Master’s Thesis
+
+### Projection methods with a probabilistic component for linear matrix equations
+
+**Original title:** *Metodi numerici proiettivi con componente probabilistica per equazioni matriciali lineari*  
+
+**Degree:** Master’s Degree in Mathematics  
+**Institution:** Alma Mater Studiorum — Università di Bologna  
+**Academic year:** 2023–2024  
+**Advisor:** Prof. Valeria Simoncini  
+**Area:** Numerical Analysis  
+
+### Abstract
+
+This thesis concerns the efficient numerical solution of large-scale linear matrix equations. In this context, Krylov subspace methods play a central role, since they exploit the structure and sparsity of the matrices involved and construct low-rank approximations to the solution.
+
+A key computational bottleneck in Krylov methods is the orthogonalization of the basis, whose cost increases with the number of iterations. Truncated Krylov methods reduce this cost by limiting the dimension of the projection space, but they may suffer from delayed convergence or stagnation, especially for more complex matrix equations.
+
+The thesis investigates the use of randomized sketching techniques to overcome these limitations. Sketching projects the original data onto a lower-dimensional random space while preserving the essential features of the problem. The main goal of the work is to combine sketching and truncation in order to reduce the computational cost of projection methods while maintaining good convergence properties.
+
+The study focuses on linear matrix equations more general than the Sylvester equation, including problems of the form
+
+$$
+A_1 X B_1^T + A_2 X B_2^T + \cdots + A_m X B_m^T = C_1 C_2^T
+$$
+
+where the coefficient matrices are sparse, symmetric and positive definite. A simpler model problem of the form
+
+$$
+AX + XA^T + MXM^T = CC^T
+$$
+
+is also analyzed. The thesis develops and tests algorithms based on embedding subspaces and sketching, with numerical experiments comparing the proposed approach with existing methods.
+
+[PDF in Italian](files/master_thesis.pdf)  
+
+English version coming soon.

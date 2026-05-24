@@ -1,0 +1,29 @@
+---
+title: "Codes"
+---
+
+# Codes
+
+This page collects research codes related to my projects in numerical linear algebra, matrix equations, and randomized algorithms.
+
+---
+
+## Projection methods with a probabilistic component for linear matrix equations
+
+MATLAB codes developed during my Master's thesis project on projection methods, Krylov methods, and randomized sketching techniques for large-scale matrix equations arising from PDE discretizations.
+
+### Topics
+
+- Krylov subspace methods
+- Truncated Krylov methods
+- Randomized sketching
+- Matrix equations
+- Sylvester-type equations
+- Large-scale numerical linear algebra
+- MATLAB implementations
+
+### Repository
+
+[GitHub Repository](https://github.com/eugeniot56/sketched-krylov-matrix-equation.git)
+
+---

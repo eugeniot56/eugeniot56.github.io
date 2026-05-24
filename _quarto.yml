@@ -1,21 +1,34 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "eugeniot56.github.io"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+  title: "Eugenio Turchet"
+  favicon: images/logo.png
 
+  navbar:
+    logo: images/logo.png
+    background: white
+    foreground: black
+    search: false
+
+    right:
+      - text: HOME
+        href: index.qmd
+
+      - text: PUBLICATIONS
+        href: publications.qmd
+
+      - text: THESIS
+        href: thesis.qmd
+
+      - text: CODES
+        href: codes.qmd
+
+      - text: CV
+        href: cv.qmd
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: cosmo
     css: styles.css
-    toc: true
-
-
-
+    toc: false
