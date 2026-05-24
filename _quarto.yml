@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Eugenio Turchet"
+  description: "PhD student in Mathematics at GSSI working on numerical linear algebra, matrix nearness problems, and randomized algorithms."
   favicon: images/logo.png
 
   navbar:
@@ -32,3 +33,8 @@ format:
     theme: cosmo
     css: styles.css
     toc: false
+    include-in-header:
+      text:
+        <meta name="google-site-verification" content="pIF2IzTFBIvKPEbiCSZlzwqV0IYP6NMuor4Ls4qbIk4" />
+
+
