@@ -184,3 +184,7 @@ a:hover {
     margin-top: 45px;
   }
 }
+
+.navbar-logo {
+  max-height: 32px;
+}
