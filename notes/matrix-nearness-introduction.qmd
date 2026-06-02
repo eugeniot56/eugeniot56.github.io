@@ -18,33 +18,9 @@ This leads to a natural question:
 
 This is the basic idea behind **matrix nearness problems**.
 
-::: {.nearness-figure}
+![](../images/nearness_intro.png){fig-align="center" width="100%"}
 
-<div class="nearness-card bad">
-  <div class="nearness-icon">✕</div>
-  <div class="nearness-title">Noisy or imperfect data</div>
-  <div class="nearness-text">A matrix is estimated or computed, but it does not satisfy the required property.</div>
-</div>
 
-<div class="nearness-arrow">→</div>
-
-<div class="nearness-card process">
-  <div class="nearness-icon">↦</div>
-  <div class="nearness-title">Matrix nearness problem</div>
-  <div class="nearness-text">Find the closest matrix satisfying the desired structure.</div>
-</div>
-
-<div class="nearness-arrow">→</div>
-
-<div class="nearness-card good">
-  <div class="nearness-icon">✓</div>
-  <div class="nearness-title">Valid structured matrix</div>
-  <div class="nearness-text">The corrected matrix is usable while remaining close to the original one.</div>
-</div>
-
-:::
-
-*Figure 1. Matrix nearness problems provide a systematic way to correct an imperfect matrix while changing it as little as possible.*
 
 ## A Simple Example
 
