@@ -1,0 +1,11 @@
+---
+title: "Notes"
+---
+
+# Notes
+
+This page collects expository notes and research-oriented posts related to my research interests.
+
+## Matrix Nearness Problems
+
+- [Matrix Nearness Problems: When a Matrix Is Almost Right](notes/matrix-nearness-introduction.qmd)

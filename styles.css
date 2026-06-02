@@ -197,3 +197,75 @@ a:hover {
   max-height: 36px;
   width: auto;
 }
+
+/* =========================
+   NEARNESS FIGURE
+========================= */
+
+.nearness-figure {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 1.2rem;
+  margin: 3rem auto 1.2rem auto;
+  max-width: 1050px;
+}
+
+.nearness-card {
+  flex: 1;
+  min-width: 190px;
+  padding: 1.4rem 1.2rem;
+  border: 1px solid #d8d8d8;
+  border-radius: 12px;
+  background: #ffffff;
+  text-align: center;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.04);
+}
+
+.nearness-icon {
+  font-size: 2rem;
+  margin-bottom: 0.7rem;
+}
+
+.nearness-title {
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+  color: #333;
+}
+
+.nearness-text {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #666;
+}
+
+.nearness-arrow {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: #777;
+}
+
+.nearness-card.bad {
+  border-top: 4px solid #b76e6e;
+}
+
+.nearness-card.process {
+  border-top: 4px solid #6e8fb7;
+}
+
+.nearness-card.good {
+  border-top: 4px solid #6fa37b;
+}
+
+@media (max-width: 800px) {
+  .nearness-figure {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .nearness-arrow {
+    justify-content: center;
+    transform: rotate(90deg);
+  }
+}

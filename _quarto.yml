@@ -26,15 +26,17 @@ website:
       - text: CODES
         href: codes.qmd
 
+      - text: NOTES
+        href: notes.qmd
+
       - text: CV
         href: cv.qmd
+
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: false
     include-in-header:
-      text:
+      text: |
         <meta name="google-site-verification" content="pIF2IzTFBIvKPEbiCSZlzwqV0IYP6NMuor4Ls4qbIk4" />
-
-

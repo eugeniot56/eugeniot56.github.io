@@ -22,5 +22,11 @@
   },
   "codes.qmd": {
     "codes.html": "1e5bf939"
+  },
+  "notes.qmd": {
+    "notes.html": "f9e10f2e"
+  },
+  "notes/matrix-nearness-introduction.qmd": {
+    "matrix-nearness-introduction.html": "d6fca010"
   }
 }
